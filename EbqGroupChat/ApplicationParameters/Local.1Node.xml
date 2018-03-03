@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/EbqGroupChat" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="ChatsService_PartitionCount" Value="1" />
+    <Parameter Name="ChatsService_MinReplicaSetSize" Value="1" />
+    <Parameter Name="ChatsService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="WebApi_InstanceCount" Value="1" />
+    <Parameter Name="GroupChatActorService_PartitionCount" Value="1" />
+    <Parameter Name="GroupChatActorService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="GroupChatActorService_MinReplicaSetSize" Value="1" />
+  </Parameters>
+</Application>
